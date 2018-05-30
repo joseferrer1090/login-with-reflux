@@ -19,11 +19,9 @@ export class Login extends Reflux.Component {
   //   }
   // };
 
-  componentDidMount() {
-    this.checkLocalStorage;
-  }
-
-  
+  //  componentDidMount() {
+  //   this.checkLocalStorage;
+  // }
 
   _handleChangeUsersame = e => {
     this.setState({
